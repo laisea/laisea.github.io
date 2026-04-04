@@ -38,6 +38,11 @@ jobs:
 
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
+
+      - name: Copy version files
+        run: |
+          mkdir -p dist/version
+          cp -r public/version/* dist/version/ 2>/dev/null || true
       
       - name: Deploy to pages branch
         uses: JamesIves/github-pages-deploy-action@v4
