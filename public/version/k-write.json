@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2026-04-04",
+  "releaseNotes": "修复了一些问题",
+  "downloadUrlMac": "https://download.k02.cn/k-write/k-write-1.0.1.dmg",
+  "downloadUrlWin": "https://download.k02.cn/k-write/k-write-1.0.1.exe",
+  "downloadPage": "https://download.k02.cn/",
+  "minimumVersion": "1.0.0"
+}

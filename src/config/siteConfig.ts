@@ -7,17 +7,17 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "laisea·blog",
+	title: "laisea",
 
 	// 站点副标题
-	subtitle: "Astro + Firefly Blog",
+	subtitle: "Blog",
 
 	// 站点 URL
 	site_url: "https://i.k02.cn",
 
 	// 站点描述
 	description:
-		"laisea 的个人博客，基于 Astro + Firefly 构建，记录技术、生活与随笔。",
+		"laisea 的个人博客",
 
 	// 站点关键词
 	keywords: [
