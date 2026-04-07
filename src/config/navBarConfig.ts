@@ -16,6 +16,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 		// 归档
 		LinkPreset.Archive,
+
+		// 快编手册
+		{
+			name: "使用手册",
+			url: "/archive/?category=%E5%BF%AB%E7%BC%96%E6%89%8B%E5%86%8C",
+			icon: "material-symbols:menu-book",
+		},
 	];
 
 	// 根据配置决定是否添加友链，在siteConfig关闭pages.friends时导航栏不显示友链

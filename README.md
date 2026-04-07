@@ -227,6 +227,7 @@ comment: true    # 是否允许评论
 | `pnpm preview`             | 本地预览已构建的网站        |
 | `pnpm check`               | 检查代码中的错误                 |
 | `pnpm format`              | 使用Biome格式化您的代码                        |
+| `pnpm menu`                | 打开博客终端菜单，可新建文章、构建、查看状态和一键发布 |
 | `pnpm new-post <filename>` | 创建新文章                                   |
 | `pnpm astro ...`           | 执行 `astro add`, `astro check` 等指令    |
 | `pnpm astro --help`        | 显示 Astro CLI 帮助                        |

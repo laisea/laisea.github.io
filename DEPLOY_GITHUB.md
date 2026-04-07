@@ -15,6 +15,7 @@
 ## 之后的发布方式
 
 - 自动发布：`git push origin master`
+- 终端菜单：`pnpm menu`，然后选择 `一键发布博客`
 - 手动一键：`GitHub -> Actions -> Deploy to Pages Branch -> Run workflow`
 
 构建产物目录为 `dist/`，工作流会自动部署到 `pages` 分支。
